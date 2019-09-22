@@ -7,15 +7,24 @@
 #logo {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 8%;
-	width: 25%;
+	margin-top: 15vh;
+	width: 70vw;
 	display: block;
 }
 
 p {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
-	font-size: 6.5em;
+	font-size: 4em;
 	display: block;
-	padding-top: 3%;
+	/*padding-top: 3%;*/
+}
+/* Rules for devices larger than Mobiles and Tablets */
+@media only screen and (min-width: 768px) {
+	#logo {
+		width: 25vw;
+	}
+	p {
+		font-size: 6.5em;
+	}
 }
