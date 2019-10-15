@@ -24,14 +24,16 @@
     background: url('../img/loaders/2.gif') 50% 50% no-repeat rgb(255,255,255);
 }*/
 #page1 {
-	min-height: 100vh;
+	height: 100vh;
 	font-family: 'BrandonText-Regular', 'Arial', sans-serif;
+	background-color: #ebfbfa;
+	background-size: cover;
 }
 .company-heading {
 	font-family: 'Lovelo-Light', 'BrandonText-Regular', Arial, sans-serif;
 	text-align: center;
 	font-size: 3.5em;
-	padding-top: 5vh;
+	padding-top: 10%;
 	color: #163530;
 }
 .header-logo {
@@ -39,9 +41,9 @@
 }
 .welcome-text {
 	text-align: center;
-	padding: 4vh 3vw 0 3vw;
+	padding: 8% 5% 5% 5%;
 	font-size: 1.6em;
-	min-height: 30vh;
+	/*min-height: 60%;*/
 	color: #808080;
 }
 .mockup {
@@ -52,7 +54,7 @@
 	margin-top: auto;
 }
 .mockup-image {
-	height: 50vh;
+	width: 30%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -84,18 +86,19 @@
 @media only screen and (min-width: 1200px) {
 	.company-heading {
 		font-size: 6em;
-		padding-top: 5vh;
+		padding-top: 3%;
 	}
 	.header-logo {
 		width: 100px;
 	}
 	.welcome-text {
 		font-size: 2.3em;
-		padding: 5vh 25vw 0 25vw;
-		min-height: 40%;
+		padding: 3% 20% 5% 20%;
+		/*min-height: 40%;*/
 	}
 	.mockup-image {
-		height: 55vh;
+		/*height: 55vh;*/
+		width: 13%;
 	}
 	.mock1 {
 		/*right: -27em;*/
