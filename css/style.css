@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Lato";@import "https://fonts.googleapis.com/css?family=Muli";
-.navbar {
+/*.navbar {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 600;
 	font-size: 15px;
@@ -7,14 +7,13 @@
 }
 .shrinkNav {
 	height: 50px;
-	/*background-color: #222;*/
 	background-color: #222629;
 	font-size: 15px;
 }
 .navbar-brand {
 	font-family: 'Lovelo-Light';
 	color: #163530;
-}
+}*/
 /*.loader {
     position: fixed;
     left: 0px;
@@ -25,25 +24,32 @@
     background: url('../img/loaders/2.gif') 50% 50% no-repeat rgb(255,255,255);
 }*/
 #page1 {
-	height: 100vh;
-	/*background-image: url("../img/back1.jpg");*/
-	/*background-color: #EBFBFA;*/
-	background-size: cover;
-	background-repeat: no-repeat;
+	min-height: 100vh;
 	font-family: 'BrandonText-Regular', 'Arial', sans-serif;
-	overflow: hidden;
+}
+.company-heading {
+	font-family: 'Lovelo-Light', 'BrandonText-Regular', Arial, sans-serif;
+	text-align: center;
+	font-size: 3.5em;
+	padding-top: 5vh;
+	color: #163530;
 }
 .welcome-text {
 	text-align: center;
-	padding: 30% 3vw 0 3vw;
-	font-size: 1.7em;
-	min-height: 45%;
+	padding: 4vh 3vw 0 3vw;
+	font-size: 1.6em;
+	min-height: 30vh;
+	color: #808080;
 }
 .mockup {
-	z-index: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-top: auto;
 }
 .mockup-image {
-	height: 60vh;
+	height: 55vh;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -55,13 +61,13 @@
 }
 .mock1 {
 	position: relative;
-	left: 25px;
+	left: 20px;
 	z-index: 999;
 	display: inline;
 }
 .mock2 {
 	position: relative;
-	right: 25px;
+	right: 20px;
 	display: inline;
 }
 #page2 {
@@ -72,14 +78,18 @@
 }
 
 /* Rules for devices larger than Mobiles and Tablets */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
+	.company-heading {
+		font-size: 6em;
+		padding-top: 5vh;
+	}
 	.welcome-text {
-		font-size: 2.5em;
-		padding: 20vh 15vw 0 15vw;
+		font-size: 2.3em;
+		padding: 5vh 25vw 0 25vw;
 		min-height: 40%;
 	}
 	.mockup-image {
-		height: 60vh;
+		height: 55vh;
 	}
 	.mock1 {
 		/*right: -27em;*/
