@@ -34,6 +34,9 @@
 	padding-top: 5vh;
 	color: #163530;
 }
+.header-logo {
+	width: 60px;
+}
 .welcome-text {
 	text-align: center;
 	padding: 4vh 3vw 0 3vw;
@@ -82,6 +85,9 @@
 	.company-heading {
 		font-size: 6em;
 		padding-top: 5vh;
+	}
+	.header-logo {
+		width: 100px;
 	}
 	.welcome-text {
 		font-size: 2.3em;
