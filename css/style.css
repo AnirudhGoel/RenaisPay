@@ -26,12 +26,13 @@ html, body {
 }
 .header-logo {
 	width: 60px;
+	vertical-align: top;
 }
 .welcome-text {
 	text-align: center;
 	padding: 4vh 3vw 0 3vw;
 	font-size: 1.6em;
-	min-height: 30vh;
+	min-height: 25vh;
 	color: #808080;
 }
 .mockup {
@@ -63,20 +64,43 @@ html, body {
 	display: inline;
 }
 #page2 {
-	min-height: 100vh;
-	padding-top: 8em;
-	background: rgba(0, 0, 0, 0.04);
-	z-index: 9999;
+	padding: 5em 3em 5em 3em;
+	/*background: rgba(0, 0, 0, 0.04);*/
+	background-color: #6ad8ad;
+	font-family: 'BrandonText-Regular', 'Arial', sans-serif;
+}
+.subscribe-form {
+	/*margin-bottom: 10vh;*/
+	/*margin-top: 10vh;*/
+}
+#tlemail {
+	width: 220px;
+	font-size: 1em;
+	margin-top: 2em;
+	padding: 10px;
+	border-radius: 7px;
+}
+label {
+	font-size: 1.5em;
+	font-family: 'BrandonText-Bold', 'Arial', sans-serif;
+}
+.subscribe-button {
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+	margin-top: 2em;
+	background-color: #214871;
+	border-color: #214871;
+	color: white;
 }
 
 /* Rules for devices larger than Mobiles and Tablets */
 @media only screen and (min-width: 1200px) {
 	.company-heading {
 		font-size: 6em;
-		padding-top: 5vh;
 	}
 	.header-logo {
 		width: 100px;
+		padding-top: 1.5vh;
 	}
 	.welcome-text {
 		font-size: 2.3em;
@@ -93,5 +117,16 @@ html, body {
 	.mock2 {
 		/*left: -27em;*/
 		/*display: inline;*/
+	}
+	label {
+		font-size: 2em;
+	}
+	#tlemail {
+		font-size: 1.2em;
+		width: 300px;
+	}
+	.subscribe-button {
+		padding: 10px 20px 10px 20px;
+		font-size: 1.2em;
 	}
 }
