@@ -16,7 +16,7 @@ function autoScroll(sectionClass) {
 }
 
 $(window).load(function() {
-	$(".loader").fadeOut("fast");
+	$(".loader").fadeOut("slow");
 
 	// Call WOW.js
 	new WOW().init();
