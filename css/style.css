@@ -16,9 +16,11 @@ html, body {
 	background-color: #ebfbfa;
 }
 .company-heading {
-	font-family: 'Lovelo-Light', 'BrandonText-Regular', Arial, sans-serif;
+	font-family: 'BrandonText-Bold', Arial, sans-serif;
+	/*'Lovelo-Light', */
 	text-align: center;
 	font-size: 3em;
+	font-weight: bolder;
 	padding-top: 5vh;
 	color: #163530;
 }
