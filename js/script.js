@@ -15,5 +15,9 @@ function autoScroll(sectionClass) {
 	}, 750);
 }
 
-// Call WOW.js
-new WOW().init();
+$(window).load(function() {
+	$(".loader").fadeOut("fast");
+
+	// Call WOW.js
+	new WOW().init();
+});

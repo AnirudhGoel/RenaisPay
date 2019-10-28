@@ -1,12 +1,16 @@
-/*.loader {
+.loader {
     position: fixed;
     left: 0px;
     top: 0px;
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('../img/loaders/2.gif') 50% 50% no-repeat rgb(255,255,255);
-}*/
+    background-color: rgb(255,255,255);
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 40vw;
+}
 html, body {
 	height: 100%;
 }
@@ -95,6 +99,9 @@ label {
 
 /* Rules for devices larger than Mobiles and Tablets */
 @media only screen and (min-width: 1200px) {
+	.loader {
+		background-size: 15vw;
+	}
 	.company-heading {
 		font-size: 6em;
 	}
